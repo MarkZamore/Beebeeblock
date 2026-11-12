@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  What the game logs, and how much of it survives.
+
+  Minecraft's own configuration keeps a full DEBUG file (logs/debug.log) that a
+  modded pack fills with tens of megabytes every session - a single chatty mod
+  produced 15 MB of it in one launch here, and none of it is read unless
+  something has already gone wrong. This drops that file, keeps latest.log at
+  INFO with the same layout players and crash reports expect, and bounds the
+  rollovers so a long-running install cannot grow without limit.
+
+  If log4j cannot parse this file it falls back to its own default
+  configuration, so a mistake here costs formatting, never a launch.
+-->
+<Configuration status="WARN" packages="com.mojang.util">
+    <Appenders>
+        <Console name="SysOut" target="SYSTEM_OUT">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level] [%logger]: %minecraftFormatting{%msg}{strip}%n%tEx"/>
+        </Console>
+        <Queue name="ServerGuiConsole" ignoreExceptions="true">
+            <PatternLayout pattern="[%d{HH:mm:ss} %level]: %minecraftFormatting{%msg}{strip}%n%tEx"/>
+        </Queue>
+        <RollingRandomAccessFile name="File" fileName="logs/latest.log" filePattern="logs/%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="[%d{HH:mm:ss}] [%t/%level] [%logger]: %minecraftFormatting{%msg}{strip}%n%tEx"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <OnStartupTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="32 MB"/>
+            </Policies>
+            <!-- Keep a handful of recent sessions, not the whole history. -->
+            <DefaultRolloverStrategy max="5" fileIndex="min">
+                <Delete basePath="logs" maxDepth="1">
+                    <IfFileName glob="*.log.gz"/>
+                    <IfLastModified age="7d"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingRandomAccessFile>
+    </Appenders>
+    <Loggers>
+        <!-- Mixin's own DEBUG stream was the second largest contributor. -->
+        <Logger level="INFO" name="mixin"/>
+        <!--
+          Mod loading, in full, into latest.log.
+
+          When loading fails, the loader collects what went wrong and shows it
+          on a screen instead of writing it down. A player whose game died that
+          way sent three sets of logs in one evening and not one of them held
+          the name of the mod that failed - latest.log said only "1 errors
+          found". These two loggers are quiet in a healthy launch and are the
+          ones that speak when it is not, so they say it into the file that
+          actually travels in a report.
+        -->
+        <Logger level="DEBUG" name="net.neoforged.fml"/>
+        <Logger level="DEBUG" name="net.neoforged.neoforge.registries"/>
+        <!--
+          Blur+ logs three DEBUG lines on the render thread for every frame it
+          draws, screen open or not - three quarters of one player's debug.log
+          was this, and it crowded 45 MB of the useful log out of a bug report.
+          The mod has no switch of its own for it.
+        -->
+        <Logger level="INFO" name="blur"/>
+        <!--
+          Myotus writes a DEBUG line for every class it looks at while it
+          scans annotations - seventy-nine thousand of them in one launch,
+          more than a third of the whole debug file. They are published from
+          the render thread, and when the disk is busy the ring buffer fills
+          and that thread stops in it: a game that looks frozen on the
+          terrain screen was waiting for room to write a log line nobody
+          reads. The mod has no switch of its own.
+        -->
+        <Logger level="INFO" name="me.myogoo.myotus"/>
+        <Logger level="INFO" name="net.minecraft.server.MinecraftServer"/>
+        <!-- Preserve only Connection's caught throwable diagnostics, without its packet DEBUG stream. -->
+        <Logger level="DEBUG" name="net.minecraft.network.Connection">
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="NEUTRAL"/>
+                <RegexFilter regex="^(Failed to sent packet|Double fault|Skipping packet due to errors|Timeout)$" onMatch="NEUTRAL" onMismatch="DENY"/>
+            </Filters>
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="SysOut" level="INFO"/>
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="ServerGuiConsole" level="INFO"/>
+        </Root>
+    </Loggers>
+</Configuration>

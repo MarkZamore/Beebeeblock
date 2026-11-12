@@ -1,3 +1,7 @@
 /portable-pack.json text eol=lf
 /tools/overlay.json text eol=lf
 /launcher/pack-owned.txt text eol=lf
+/config/log4j2.xml -text
+/launcher/jvm-args.txt text eol=lf
+/tools/network-logging-policy.json text eol=lf
+/tools/network_logging_policy.py text eol=lf

@@ -2,5 +2,17 @@
   "schemaVersion": 1,
   "authorArchiveSha256": "4114384fceb8774db14446bd1b5767f1891a8cf4b79d8c5c2af1f0b8050fd4f2",
   "descriptorSha256": "79b856a190c737b0d7e5098efa0416b84747214af352c1ae36fc17a8cc23ca59",
-  "patches": []
+  "patches": [],
+  "additions": [
+    {
+      "path": "config/log4j2.xml",
+      "sizeBytes": 4617,
+      "sha256": "9e7b9918b6ede54f7393ed3d307e51a2edb032b98c12f069f5df976bcf940b89"
+    },
+    {
+      "path": "launcher/jvm-args.txt",
+      "sizeBytes": 44,
+      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
+    }
+  ]
 }
