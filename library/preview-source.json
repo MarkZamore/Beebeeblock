@@ -1,0 +1,28 @@
+{
+  "authorArchiveSha256": "4114384fceb8774db14446bd1b5767f1891a8cf4b79d8c5c2af1f0b8050fd4f2",
+  "preview": {
+    "height": 540,
+    "sha256": "858cbb4494d06a32711aa3abd653330beacf80ef09439c5d79b2b287576bda1f",
+    "sizeBytes": 206392,
+    "width": 960
+  },
+  "schemaVersion": 1,
+  "source": {
+    "archivePath": "overrides/config/fancymenu/assets/beebeeblockpg.png",
+    "height": 1080,
+    "references": [
+      "overrides/config/fancymenu/customization/beebeelayout.txt"
+    ],
+    "sha256": "68f1894dd91daa713daefcb6db158b51ccc1d4d4485216c3b77c4d3f29189647",
+    "sizeBytes": 2435953,
+    "width": 1920
+  },
+  "transformation": {
+    "format": "JPEG",
+    "method": "center crop and Lanczos resize",
+    "optimize": true,
+    "pillowVersion": "12.3.0",
+    "quality": 92,
+    "subsampling": 0
+  }
+}
