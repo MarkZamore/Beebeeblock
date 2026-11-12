@@ -5,3 +5,4 @@
 /launcher/jvm-args.txt text eol=lf
 /tools/network-logging-policy.json text eol=lf
 /tools/network_logging_policy.py text eol=lf
+*.json text eol=lf
