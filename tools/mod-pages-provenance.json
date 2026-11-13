@@ -1,0 +1,886 @@
+{
+  "alternateAuthorJarNotSelected": {
+    "explorerscompass": {
+      "declaredAuthor": "ChaosTheDude (Edited by MCMostWolf)",
+      "declaredWebsiteUrl": "https://github.com/MattCzyr/ExplorersCompass",
+      "fileId": 8234657,
+      "projectId": 1203888,
+      "sourcePath": "mods/explorerscompass-edited-1.21.1-3.0.4-neoforge.jar",
+      "sourceSha256": "48d2850a0203ed57eca871179bcaa817f8aaac6273cf02db73e9ba20bcc5a961",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/explorers-compass-edited"
+    }
+  },
+  "authorArchiveSha256": "4114384fceb8774db14446bd1b5767f1891a8cf4b79d8c5c2af1f0b8050fd4f2",
+  "authorDistributionComponents": {
+    "ae2wtlib_api": "Use the Mari023 NeoForge port source. The historical CurseForge AE2 Wireless Terminal Library is published by a different project owner.",
+    "endercore": "Modern bundled Team EnderIO module. Use official Ender IO distribution page; legacy standalone EnderCore is a different generation.",
+    "enderio_modded_conduits": "Bundled Team EnderIO module; use the official project that distributes this exact modern module."
+  },
+  "individuallyVerified": {
+    "additionalentityattributes": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "AdditionalEntityAttributes",
+            "group": "maven.modrinth"
+          },
+          "declaredAuthor": "DaFuqs, MerchantPug",
+          "declaredWebsiteUrl": "https://github.com/DaFuqs/AdditionalEntityAttributes",
+          "nestedPath": "META-INF/jarjar/AdditionalEntityAttributes-2.0.0+1.21.1-neoforge.jar",
+          "nestedSha256": "437bbfe32b7dccd8f3ea96e09674492537a8842f539b760bf70272a2a1d0211f",
+          "sourcePath": "mods/allthearcanistgear-1.21.1-21.3.2.jar",
+          "sourceSha256": "4f04704305fcfd8f5c6d92b6ed1f5912a078c77a9442c3c0e224a24b352ddf3b",
+          "version": "2.0.0+1.21.1",
+          "websiteUrl": "https://modrinth.com/mod/additionalentityattributes"
+        }
+      ],
+      "nativeSourceFile": "AdditionalEntityAttributes-2.0.0+1.21.1-neoforge.jar",
+      "nativeVersion": "2.0.0+1.21.1",
+      "websiteUrl": "https://modrinth.com/mod/additionalentityattributes"
+    },
+    "ae2addonlib": {
+      "matchingDeclarations": [
+        {
+          "declaredAuthor": "Pedroksl",
+          "declaredWebsiteUrl": null,
+          "fileId": 7222312,
+          "projectId": 1366135,
+          "sourcePath": "mods/AE2AddonLib-1.0.3-1.21.1.jar",
+          "sourceSha256": "1d065b46db71addeb7e04aff4981b424531d40123fe2b0c1d2a2cc9af81319fe",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ae2addonlib"
+        }
+      ],
+      "nativeSourceFile": "AE2AddonLib-1.0.3-1.21.1.jar",
+      "nativeVersion": "1.0.3-1.21.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ae2addonlib"
+    },
+    "ae2wtlib_api": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "ae2wtlib_api",
+            "group": "de.mari_023"
+          },
+          "declaredAuthor": "mari_023, Ridanisaurus",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/de.mari_023.ae2wtlib_api-19.5.1.jar",
+          "nestedSha256": "e674205f18eb2d07ce33cda69d46cdba63a6230e7dabbe2abf98064991d6b3c4",
+          "sourcePath": "mods/ae2wtlib-19.5.1.jar",
+          "sourceSha256": "407e7300351353cb4cb7698286e180aef2bd6e7a97ec7efc6493f9daa4dbffe5",
+          "version": "19.5.1",
+          "websiteUrl": "https://github.com/Mari023/AE2WirelessTerminalLibrary"
+        }
+      ],
+      "nativeSourceFile": "de.mari_023.ae2wtlib_api-19.5.1.jar",
+      "nativeVersion": "19.5.1",
+      "websiteUrl": "https://github.com/Mari023/AE2WirelessTerminalLibrary"
+    },
+    "athena": {
+      "matchingDeclarations": [
+        {
+          "declaredAuthor": "ThatGravyBoat",
+          "declaredWebsiteUrl": "https://modrinth.com/mod/athena-ctm",
+          "fileId": 8061947,
+          "projectId": 841890,
+          "sourcePath": "mods/athena-neoforge-1.21.1-4.0.6.jar",
+          "sourceSha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/athena"
+        },
+        {
+          "coordinate": {
+            "artifact": "athena-neoforge-1.21.1",
+            "group": "earth.terrarium.athena"
+          },
+          "declaredAuthor": "ThatGravyBoat",
+          "declaredWebsiteUrl": "https://modrinth.com/mod/athena-ctm",
+          "nestedPath": "META-INF/jarjar/athena-neoforge-1.21.1-4.0.6.jar",
+          "nestedSha256": "43699885bbce3343916d4c5c4940cf0e3f9f6f02fdeb46e8655e121b42282ec5",
+          "sourcePath": "mods/the_bumblezone-7.17.1+1.21.1-neoforge.jar",
+          "sourceSha256": "eb4e47377cb8e43c8cc141bcdfc5dbf0a37594b7a5664d1ef44e55c8ebc9699e",
+          "version": "4.0.6",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/athena"
+        }
+      ],
+      "nativeSourceFile": "athena-neoforge-1.21.1-4.0.6.jar",
+      "nativeVersion": "4.0.6",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/athena"
+    },
+    "betteradvancedtooltips": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "better-advanced-tooltips",
+            "group": "dev.latvian.mods"
+          },
+          "declaredAuthor": "latvian.dev",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/better-advanced-tooltips-2101.1.0-build.1.jar",
+          "nestedSha256": "8fe810b03fd212720465956292a5a9b23b59259bbffe86b60fd65fe0558bcf5f",
+          "sourcePath": "mods/kubejs-neoforge-2101.7.2-build.368.jar",
+          "sourceSha256": "28867299e7a9f02cfd74e34745fdbbb073fe4887fddbc98fd6c1ed2e87b01482",
+          "version": "2101.1.0-build.1",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-advanced-tooltips"
+        }
+      ],
+      "nativeSourceFile": "better-advanced-tooltips-2101.1.0-build.1.jar",
+      "nativeVersion": "2101.1.0-build.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/better-advanced-tooltips"
+    },
+    "codecui": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "codecui-neoforge",
+            "group": "net.mehvahdjukaar"
+          },
+          "declaredAuthor": "MehVahdJukaar",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/codecui-neoforge-1.21.1-1.3.6.jar",
+          "nestedSha256": "85922e5d8641430e0153727c40ea0390d416b1f90e64bd193228078f1bd90fb3",
+          "sourcePath": "mods/moonlight-neoforge-1.21.1-3.3.0.jar",
+          "sourceSha256": "30420824c7f9fbca0317551c8fd6bbdce01c8d745edf5bc8d61e42393c5f0335",
+          "version": "1.21.1-1.3.6",
+          "websiteUrl": "https://github.com/MehVahdJukaar/codecui"
+        }
+      ],
+      "nativeSourceFile": "codecui-neoforge-1.21.1-1.3.6.jar",
+      "nativeVersion": "1.21.1-1.3.6",
+      "websiteUrl": "https://github.com/MehVahdJukaar/codecui"
+    },
+    "conditional_mixin": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "conditional-mixin-neoforge",
+            "group": "me.fallenbreath"
+          },
+          "declaredAuthor": "Fallen_Breath",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar",
+          "nestedSha256": "0ae7b346d87879e81f276e6a590a6af1e723193e6eb3e94c1f71f7ab5b54d59f",
+          "sourcePath": "mods/CreateDragonsPlus-1.11.9.jar",
+          "sourceSha256": "37f05a6775bbe811fe8c2833fa6289a1c704d0b25bdd5f239d343a5c6f62ed8a",
+          "version": "0.6.4",
+          "websiteUrl": "https://github.com/Fallen-Breath/conditional-mixin"
+        },
+        {
+          "coordinate": {
+            "artifact": "conditional-mixin-neoforge",
+            "group": "me.fallenbreath"
+          },
+          "declaredAuthor": "Fallen_Breath",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/conditional-mixin-neoforge-0.6.4.jar",
+          "nestedSha256": "0ae7b346d87879e81f276e6a590a6af1e723193e6eb3e94c1f71f7ab5b54d59f",
+          "sourcePath": "mods/create-enchantment-industry-2.5.4.jar",
+          "sourceSha256": "6e68d68eb0619fb092861d981ae998b1fcf3757d5ca72636103a24bcdb89d1ad",
+          "version": "0.6.4",
+          "websiteUrl": "https://github.com/Fallen-Breath/conditional-mixin"
+        }
+      ],
+      "nativeSourceFile": "conditional-mixin-neoforge-0.6.4.jar",
+      "nativeVersion": "0.6.4",
+      "websiteUrl": "https://github.com/Fallen-Breath/conditional-mixin"
+    },
+    "endercore": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "endercore",
+            "group": "com.enderio"
+          },
+          "declaredAuthor": "CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid, Rover656, HypherionSA, liliandev, Ferri_Arnus, dphaldes",
+          "declaredWebsiteUrl": "https://enderio.com/",
+          "nestedPath": "META-INF/jarjar/com.enderio.endercore-8.2.12-beta.jar",
+          "nestedSha256": "b5b3a7b0d971dcd3d9dbcec029a36d450ee72600182c565cb29264de79171a7f",
+          "sourcePath": "mods/enderio-8.2.12-beta.jar",
+          "sourceSha256": "5fe098153dddc2e7ccd9d38b0341dbc61f3072150958c916e5ef63f395e4eab1",
+          "version": "8.2.12-beta",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ender-io"
+        }
+      ],
+      "nativeSourceFile": "com.enderio.endercore-8.2.12-beta.jar",
+      "nativeVersion": "8.2.12-beta",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ender-io"
+    },
+    "enderio_modded_conduits": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "enderio-modded-conduits",
+            "group": "com.enderio"
+          },
+          "declaredAuthor": "CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid, Rover656, HypherionSA, liliandev, Ferri_Arnus, dphaldes",
+          "declaredWebsiteUrl": "https://enderio.com/",
+          "nestedPath": "META-INF/jarjar/com.enderio.enderio-modded-conduits-8.2.12-beta.jar",
+          "nestedSha256": "f19e96502a03e877b8941be53c7d4de3f900f051e757da6fea6d25df3e02784a",
+          "sourcePath": "mods/enderio-8.2.12-beta.jar",
+          "sourceSha256": "5fe098153dddc2e7ccd9d38b0341dbc61f3072150958c916e5ef63f395e4eab1",
+          "version": "8.2.12-beta",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ender-io"
+        }
+      ],
+      "nativeSourceFile": "com.enderio.enderio-modded-conduits-8.2.12-beta.jar",
+      "nativeVersion": "8.2.12-beta",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/ender-io"
+    },
+    "expandability": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "expandability-neoforge",
+            "group": "be.florens"
+          },
+          "declaredAuthor": "Florens",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jars/expandability-neoforge-12.0.0.jar",
+          "nestedSha256": "0c43974172ef4b69d436e17b4423fe52f0cb6c8f337e0a72e15cae252fcf5481",
+          "sourcePath": "mods/artifacts-neoforge-13.2.0.jar",
+          "sourceSha256": "3768f05bef154ec079bba7ea9e8f3f0e570af4853b27784047151a845c08b675",
+          "version": "12.0.0",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/expandability"
+        }
+      ],
+      "nativeSourceFile": "expandability-neoforge-12.0.0.jar",
+      "nativeVersion": "12.0.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/expandability"
+    },
+    "explorerscompass": {
+      "matchingDeclarations": [
+        {
+          "declaredAuthor": "ChaosTheDude",
+          "declaredWebsiteUrl": "https://github.com/MattCzyr/ExplorersCompass",
+          "fileId": 7892943,
+          "projectId": 491794,
+          "sourcePath": "mods/ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+          "sourceSha256": "71e7b47bd88c9c210d7c06fe5276736fc2e225e869778216537d584e6d1faf24",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/explorers-compass"
+        }
+      ],
+      "nativeSourceFile": "ExplorersCompass-1.21.1-3.4.0-neoforge.jar",
+      "nativeVersion": "1.21.1-3.4.0-neoforge",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/explorers-compass"
+    },
+    "fabric_api_base": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "fabric-api-base",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+          "nestedSha256": "bdf464c6df587b4aa87df2cbe326acbbb307727d3e27dbaf58d592c429e6eac3",
+          "sourcePath": "mods/Kiwi-1.21.1-NeoForge-15.8.7.jar",
+          "sourceSha256": "f1222ac3773b2814d40ee6e77129bb27a29d82ec76d7a878ba23d3f5f9f8a392",
+          "version": "0.4.42+d1308ded19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        },
+        {
+          "coordinate": {
+            "artifact": "fabric-api-base",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+          "nestedSha256": "bdf464c6df587b4aa87df2cbe326acbbb307727d3e27dbaf58d592c429e6eac3",
+          "sourcePath": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+          "sourceSha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+          "version": "0.4.42+d1308ded19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        },
+        {
+          "coordinate": {
+            "artifact": "fabric-api-base",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-api-base-0.4.42+d1308ded19.jar",
+          "nestedSha256": "729aef08d1df36c2f04fbf52ee4d92a7d29e33047865a8a8cf5546ebeac687e0",
+          "sourcePath": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+          "sourceSha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+          "version": "0.4.42+d1308ded19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        }
+      ],
+      "nativeSourceFile": "fabric-api-base-0.4.42+d1308ded19.jar",
+      "nativeVersion": "0.4.42+d1308ded19",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_block_view_api_v2": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "fabric-block-view-api-v2",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+          "nestedSha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48",
+          "sourcePath": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+          "sourceSha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+          "version": "1.0.10+9afaaf8c19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        },
+        {
+          "coordinate": {
+            "artifact": "fabric-block-view-api-v2",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+          "nestedSha256": "87da93c4ef283e0ce66f8da67d6cba93d9884c55152014a49c2b6f4f861bec48",
+          "sourcePath": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+          "sourceSha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+          "version": "1.0.10+9afaaf8c19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        }
+      ],
+      "nativeSourceFile": "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar",
+      "nativeVersion": "1.0.10+9afaaf8c19",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_particles_v1": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "fabric-particles-v1",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-particles-v1-4.0.2+824f924c19.jar",
+          "nestedSha256": "70a2befedce7b50544d35af71ab6d53b8f3b3e83444f16dbc6a5c5562b03c33e",
+          "sourcePath": "mods/Lychee-1.21.1-NeoForge-6.5.3.jar",
+          "sourceSha256": "839b359158ff9414c45590ac5319a27688f741d4b252980aa75b58a32f8a2ef6",
+          "version": "4.0.2+824f924c19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        }
+      ],
+      "nativeSourceFile": "fabric-particles-v1-4.0.2+824f924c19.jar",
+      "nativeVersion": "4.0.2+824f924c19",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_renderer_api_v1": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "fabric-renderer-api-v1",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-renderer-api-v1-3.4.1+9125b6dc19.jar",
+          "nestedSha256": "aba3e2dc8d670eae242a75c5ae961acbb542792ac587ca3a3b4b177bcbb9cda7",
+          "sourcePath": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+          "sourceSha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+          "version": "3.4.1+9125b6dc19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        }
+      ],
+      "nativeSourceFile": "fabric-renderer-api-v1-3.4.1+9125b6dc19.jar",
+      "nativeVersion": "3.4.1+9125b6dc19",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "fabric_rendering_data_attachment_v1": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "fabric-rendering-data-attachment-v1",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+          "nestedSha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1",
+          "sourcePath": "mods/iris-neoforge-1.8.14-beta.1+mc1.21.1.jar",
+          "sourceSha256": "60d5f8bf52f25e9986440f4a4270a6bd986d9cff994510e1108ac1547063b314",
+          "version": "0.3.48+73761d2e19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        },
+        {
+          "coordinate": {
+            "artifact": "fabric-rendering-data-attachment-v1",
+            "group": "org.sinytra.forgified-fabric-api"
+          },
+          "declaredAuthor": "Sinytra, FabricMC",
+          "declaredWebsiteUrl": "https://github.com/Sinytra/ForgifiedFabricAPI",
+          "nestedPath": "META-INF/jarjar/fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+          "nestedSha256": "a720c7a1e73583e0fed5110556290df023d158750740bc00e4040d6cd2cb9af1",
+          "sourcePath": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+          "sourceSha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+          "version": "0.3.48+73761d2e19",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+        }
+      ],
+      "nativeSourceFile": "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar",
+      "nativeVersion": "0.3.48+73761d2e19",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/forgified-fabric-api"
+    },
+    "flywheel": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "flywheel-neoforge-1.21.1",
+            "group": "dev.engine-room.flywheel"
+          },
+          "declaredAuthor": "Jozufozu, PepperCode1",
+          "declaredWebsiteUrl": "https://github.com/Engine-Room/Flywheel",
+          "nestedPath": "META-INF/jarjar/flywheel-neoforge-1.21.1-1.0.6.jar",
+          "nestedSha256": "31dda15c205eb596d3b3449ef03f6af7363a6cd35b3da4bfe916b304f9e5337e",
+          "sourcePath": "mods/create-1.21.1-6.0.10.jar",
+          "sourceSha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+          "version": "1.0.6",
+          "websiteUrl": "https://github.com/Engine-Room/Flywheel"
+        }
+      ],
+      "nativeSourceFile": "flywheel-neoforge-1.21.1-1.0.6.jar",
+      "nativeVersion": "1.0.6",
+      "websiteUrl": "https://github.com/Engine-Room/Flywheel"
+    },
+    "grandpower": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "GrandPower",
+            "group": "dev.technici4n"
+          },
+          "declaredAuthor": "Technici4n",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/GrandPower-3.0.2.jar",
+          "nestedSha256": "65bca4f4962f0ba9720fa8cdf8aec0d2d1b13b2b4f3885a289a1591839a69396",
+          "sourcePath": "mods/ae2importexportcard-1.21.1-1.9.1.jar",
+          "sourceSha256": "d9fadd2008358e3cc12295648e39424968110a2d70fd429d2c4541064ad4f6f0",
+          "version": "3.0.2",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/grandpower"
+        },
+        {
+          "coordinate": {
+            "artifact": "GrandPower",
+            "group": "dev.technici4n"
+          },
+          "declaredAuthor": "Technici4n",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/GrandPower-3.0.2.jar",
+          "nestedSha256": "65bca4f4962f0ba9720fa8cdf8aec0d2d1b13b2b4f3885a289a1591839a69396",
+          "sourcePath": "mods/oritech-neoforge-1.21.1-1.2.13.jar",
+          "sourceSha256": "32600bf5b08fcf6d4a49e557f90ee45b238098170777872c8919d9fdb0a1b828",
+          "version": "3.0.2",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/grandpower"
+        }
+      ],
+      "nativeSourceFile": "GrandPower-3.0.2.jar",
+      "nativeVersion": "3.0.2",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/grandpower"
+    },
+    "infiniverse": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "infiniverse-568341",
+            "group": "curse.maven"
+          },
+          "declaredAuthor": "Commoble",
+          "declaredWebsiteUrl": "https://www.curseforge.com/minecraft/mc-mods/infiniverse",
+          "nestedPath": "META-INF/jarjar/infiniverse-568341-5486311.jar",
+          "nestedSha256": "ca0f8b3952120ec566d91d4aca79c9c9175309329c69b925507e9d627684bd5b",
+          "sourcePath": "mods/ars_nouveau-1.21.1-5.13.3.jar",
+          "sourceSha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+          "version": "2.0.1.0",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/infiniverse"
+        }
+      ],
+      "nativeSourceFile": "infiniverse-568341-5486311.jar",
+      "nativeVersion": "2.0.1.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/infiniverse"
+    },
+    "kotlinforforge": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "kffmod",
+            "group": "thedarkcolour"
+          },
+          "declaredAuthor": "thedarkcolour",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/thedarkcolour.kffmod-5.12.0.jar",
+          "nestedSha256": "fffaadd2379bd43c2fc3263481b0a2abf1942d1efa053fa8946da78843de1c29",
+          "sourcePath": "mods/kotlinforforge-5.12.0-all.jar",
+          "sourceSha256": "095aed94f21b4e55895b21ea957750ae3ab829fbcfc6d3c66a3489f5f1128d46",
+          "version": "5.12.0",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+        }
+      ],
+      "nativeSourceFile": "thedarkcolour.kffmod-5.12.0.jar",
+      "nativeVersion": "5.12.0",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge"
+    },
+    "kuma_api": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "kuma-api-neoforge",
+            "group": "net.blay09.mods"
+          },
+          "declaredAuthor": "BlayTheNinth",
+          "declaredWebsiteUrl": "https://mods.twelveiterations.com/mc/kuma",
+          "nestedPath": "META-INF/jarjar/kuma-api-neoforge-21.0.8+1.21.jar",
+          "nestedSha256": "cf04355de63f96a84a10309d1c985200eb54b7bc614c7c3b556b39209e829f40",
+          "sourcePath": "mods/balm-neoforge-1.21.1-21.0.64.jar",
+          "sourceSha256": "1bd122300943c75b359c7d0460dc715bee69aaa5d21dda713c03786bfd66b2b1",
+          "version": "21.0.8",
+          "websiteUrl": "https://github.com/TwelveIterations/KumaAPI"
+        }
+      ],
+      "nativeSourceFile": "kuma-api-neoforge-21.0.8+1.21.jar",
+      "nativeVersion": "21.0.8",
+      "websiteUrl": "https://github.com/TwelveIterations/KumaAPI"
+    },
+    "lambdynlights_api": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "lambdynamiclights-api",
+            "group": "dev.lambdaurora.lambdynamiclights"
+          },
+          "declaredAuthor": "LambdAurora",
+          "declaredWebsiteUrl": "https://lambdaurora.dev/projects/lambdynamiclights",
+          "nestedPath": "META-INF/jarjar/lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar",
+          "nestedSha256": "5424cdba38336ba1357805008a9cccbf697fae8bcdc3f8bfa2d7359a577af265",
+          "sourcePath": "mods/ars_nouveau-1.21.1-5.13.3.jar",
+          "sourceSha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+          "version": "4.5.1+1.21.1",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights"
+        }
+      ],
+      "nativeSourceFile": "lambdynamiclights-api-4.5.1+1.21.1-mojmap.jar",
+      "nativeVersion": "4.5.1+1.21.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights"
+    },
+    "mezz_config": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "mezz_config-1.21.1-neoforge",
+            "group": "net.mezzdev.config"
+          },
+          "declaredAuthor": "mezz",
+          "declaredWebsiteUrl": "https://github.com/mezz/MezzConfig",
+          "nestedPath": "META-INF/jarjar/mezz_config-1.21.1-neoforge-0.6.8.jar",
+          "nestedSha256": "13c1b9219fcf67cbfe6ac76c33230ac991c3a7502eea804865d461cd17018645",
+          "sourcePath": "mods/mezz_config-1.21.1-neoforge-0.6.8-standalone.jar",
+          "sourceSha256": "182ad8ad757175b49d573512c8fac624ee526e8138e24b36f677b0f6466e20cb",
+          "version": "0.6.8",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mezzconfig"
+        }
+      ],
+      "nativeSourceFile": "mezz_config-1.21.1-neoforge-0.6.8.jar",
+      "nativeVersion": "0.6.8",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/mezzconfig"
+    },
+    "nuggets": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "nuggets-neoforge-1.21.1",
+            "group": "com.hollingsworth.nuggets"
+          },
+          "declaredAuthor": "BaileyH",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/nuggets-neoforge-1.21.1-1.1.0.48.jar",
+          "nestedSha256": "204bbc9e9edfe6d96ab51bb39b062388e444e621f8b2692ec78d0634d0831865",
+          "sourcePath": "mods/ars_nouveau-1.21.1-5.13.3.jar",
+          "sourceSha256": "45c1b6022d8e63464177c1f822bda22c3d6fb66970857fd7677e4e3ccffd259f",
+          "version": "1.1.0.48",
+          "websiteUrl": "https://github.com/baileyholl/nuggets"
+        }
+      ],
+      "nativeSourceFile": "nuggets-neoforge-1.21.1-1.1.0.48.jar",
+      "nativeVersion": "1.1.0.48",
+      "websiteUrl": "https://github.com/baileyholl/nuggets"
+    },
+    "placebo": {
+      "matchingDeclarations": [
+        {
+          "declaredAuthor": "Shadows_of_Fire",
+          "declaredWebsiteUrl": null,
+          "fileId": 8463693,
+          "projectId": 283644,
+          "sourcePath": "mods/Placebo-1.21.1-9.9.2.jar",
+          "sourceSha256": "1a844a5b081813b1edb82656329e54d38389ed470f6a6516a5887f5303d7daad",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/placebo"
+        }
+      ],
+      "nativeSourceFile": "Placebo-1.21.1-9.9.2.jar",
+      "nativeVersion": "9.9.2",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/placebo"
+    },
+    "ponder": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "ponder-neoforge",
+            "group": "net.createmod.ponder"
+          },
+          "declaredAuthor": "simibubi, Pepper, zelophed",
+          "declaredWebsiteUrl": "https://github.com/Creators-of-Create/Ponder",
+          "nestedPath": "META-INF/jarjar/ponder-neoforge-1.0.82+mc1.21.1.jar",
+          "nestedSha256": "0cf4611ad853042b689ac386184c5bbe02950efcffddb49e5f604e82baddb0dc",
+          "sourcePath": "mods/create-1.21.1-6.0.10.jar",
+          "sourceSha256": "ef87fe5709f1ba1f5b8bb20a2925b5afb4669e178fd6d8bf10c167759eefe37a",
+          "version": "1.0.82+mc1.21.1",
+          "websiteUrl": "https://github.com/Creators-of-Create/Ponder"
+        }
+      ],
+      "nativeSourceFile": "ponder-neoforge-1.0.82+mc1.21.1.jar",
+      "nativeVersion": "1.0.82+mc1.21.1",
+      "websiteUrl": "https://github.com/Creators-of-Create/Ponder"
+    },
+    "productivelib": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "productivelib",
+            "group": "cy.jdkdigital.productivelib"
+          },
+          "declaredAuthor": "LobsterJonn",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/productivelib-1.21.1-0.2.0.jar",
+          "nestedSha256": "6671c8aa783d5fc3056b5a24b041edcf51b9c774b68fd85a790ae3346e4550e7",
+          "sourcePath": "mods/productivebees-1.21.1-13.14.0.jar",
+          "sourceSha256": "2a7ecbcebb8bb91eca141261addfcdbc112f0be160b618ed47960c3b20ff0bf4",
+          "version": "1.21.1-0.2.0",
+          "websiteUrl": "https://github.com/JDKDigital/productivelib"
+        }
+      ],
+      "nativeSourceFile": "productivelib-1.21.1-0.2.0.jar",
+      "nativeVersion": "1.21.1-0.2.0",
+      "websiteUrl": "https://github.com/JDKDigital/productivelib"
+    },
+    "resourcefullib": {
+      "matchingDeclarations": [
+        {
+          "declaredAuthor": "ThatGravyBoat, Epic_Oreo",
+          "declaredWebsiteUrl": null,
+          "fileId": 5973188,
+          "projectId": 570073,
+          "sourcePath": "mods/resourcefullib-neoforge-1.21-3.0.12.jar",
+          "sourceSha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib"
+        },
+        {
+          "coordinate": {
+            "artifact": "resourcefullib-neoforge-1.21",
+            "group": "com.teamresourceful.resourcefullib"
+          },
+          "declaredAuthor": "ThatGravyBoat, Epic_Oreo",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/resourcefullib-neoforge-1.21-3.0.12.jar",
+          "nestedSha256": "5e36f2c69de008dc5795f730c84ab767688f15c810944b585485349a0c911261",
+          "sourcePath": "mods/the_bumblezone-7.17.1+1.21.1-neoforge.jar",
+          "sourceSha256": "eb4e47377cb8e43c8cc141bcdfc5dbf0a37594b7a5664d1ef44e55c8ebc9699e",
+          "version": "3.0.12",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib"
+        }
+      ],
+      "nativeSourceFile": "resourcefullib-neoforge-1.21-3.0.12.jar",
+      "nativeVersion": "3.0.12",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib"
+    },
+    "sablecompanion": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "sable-companion-common-1.21.1",
+            "group": "dev.ryanhcode.sable-companion"
+          },
+          "declaredAuthor": "RyanHCode, Ocelot",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+          "nestedSha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+          "sourcePath": "mods/create_connected-1.3.3-mc1.21.1.jar",
+          "sourceSha256": "89d2404d2d5bc696b1813e39b9d1616a41888f74a648771152b0b0323a490265",
+          "version": "1.6.0",
+          "websiteUrl": "https://github.com/ryanhcode/sable-companion"
+        },
+        {
+          "coordinate": {
+            "artifact": "sable-companion-common-1.21.1",
+            "group": "dev.ryanhcode.sable-companion"
+          },
+          "declaredAuthor": "RyanHCode, Ocelot",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/sable-companion-common-1.21.1-1.6.0.jar",
+          "nestedSha256": "873633e35046e3761b277ff8a1ecad0d55d9a3014fa81a0b084c9aecba1f3bed",
+          "sourcePath": "mods/createaddition-1.7.2.jar",
+          "sourceSha256": "71e9c3ac39089e72c1e47a129a44e41eb55efc9534eecfdead8da8fb64313414",
+          "version": "1.6.0",
+          "websiteUrl": "https://github.com/ryanhcode/sable-companion"
+        }
+      ],
+      "nativeSourceFile": "sable-companion-common-1.21.1-1.6.0.jar",
+      "nativeVersion": "1.6.0",
+      "websiteUrl": "https://github.com/ryanhcode/sable-companion"
+    },
+    "sauce": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "sauce-1.21.1",
+            "group": "com.alexthw.sauce"
+          },
+          "declaredAuthor": "Alexthw.",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/sauce-1.21.1-0.0.61.100.jar",
+          "nestedSha256": "58ce7a36fc6fb7631b35765d58227b2982ece031559fa4122f1391a17811b251",
+          "sourcePath": "mods/ars_elemental-1.21.1-0.7.10.4.jar",
+          "sourceSha256": "9ba4393c98228bb1647e3786c71c30c7eb97574b9e65baba14f34c92f7b86eb9",
+          "version": "0.0.61.100",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/saucelib"
+        }
+      ],
+      "nativeSourceFile": "sauce-1.21.1-0.0.61.100.jar",
+      "nativeVersion": "0.0.61.100",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/saucelib"
+    },
+    "sodium": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "neoforge",
+            "group": "net.caffeinemc"
+          },
+          "declaredAuthor": "JellySquid (jellysquid3), IMS212",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod.jar",
+          "nestedSha256": "d71acbffafd3d177add7624710114d8570cdd70d5553a2b5c8ab371852c59ce3",
+          "sourcePath": "mods/sodium-neoforge-0.8.13+mc1.21.1.jar",
+          "sourceSha256": "575d187b15328d7bddd8a9b1bee64333c22c14735f5780ec49eac0cd5503c08d",
+          "version": "0.8.13+mc1.21.1",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sodium"
+        }
+      ],
+      "nativeSourceFile": "net.caffeinemc.sodium-neoforge-0.8.13+mc1.21.1-mod.jar",
+      "nativeVersion": "0.8.13+mc1.21.1",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/sodium"
+    },
+    "spectrelib": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "spectrelib-neoforge",
+            "group": "com.illusivesoulworks.spectrelib"
+          },
+          "declaredAuthor": "Illusive Soulworks",
+          "declaredWebsiteUrl": "https://github.com/illusivesoulworks/spectrelib",
+          "nestedPath": "META-INF/jarjar/spectrelib-neoforge-0.17.2+1.21.jar",
+          "nestedSha256": "5be2f580af278c5707679ceb079aee46d13ffbe6c2f5138c86598a8e90ca3969",
+          "sourcePath": "mods/comforts-neoforge-9.0.5+1.21.1.jar",
+          "sourceSha256": "6b0fd35a1349107e08a45539adbde9683bb203febc43a3305f6fc4ac73e59615",
+          "version": "0.17.2+1.21",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spectrelib"
+        }
+      ],
+      "nativeSourceFile": "spectrelib-neoforge-0.17.2+1.21.jar",
+      "nativeVersion": "0.17.2+1.21",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/spectrelib"
+    },
+    "transition": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "TRansition",
+            "group": "dev.tr7zw"
+          },
+          "declaredAuthor": "tr7zw",
+          "declaredWebsiteUrl": "https://github.com/tr7zw/TRansition",
+          "nestedPath": "META-INF/jars/TRansition-1.0.17-1.21.1-neoforge-SNAPSHOT.jar",
+          "nestedSha256": "e2faaa38ffc868e18fe55c4b60b5b7501d75d1308f21ee5880d262f00124fa33",
+          "sourcePath": "mods/entityculling-neoforge-1.10.1-mc1.21.1.jar",
+          "sourceSha256": "da2f7c43329b20d9627a6590f8048233c349d5efe78defe57b05eff120ded691",
+          "version": "1.0.17",
+          "websiteUrl": "https://github.com/tr7zw/TRansition"
+        }
+      ],
+      "nativeSourceFile": "TRansition-1.0.17-1.21.1-neoforge-SNAPSHOT.jar",
+      "nativeVersion": "1.0.17",
+      "websiteUrl": "https://github.com/tr7zw/TRansition"
+    },
+    "trender": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "TRender",
+            "group": "dev.tr7zw"
+          },
+          "declaredAuthor": "tr7zw",
+          "declaredWebsiteUrl": "https://github.com/tr7zw/TRender",
+          "nestedPath": "META-INF/jars/TRender-1.0.12-1.21.1-neoforge-SNAPSHOT.jar",
+          "nestedSha256": "796f9984c04336cb041929767bf0701eeda7c1f8810754f7e2f8dfaee90d20d4",
+          "sourcePath": "mods/entityculling-neoforge-1.10.1-mc1.21.1.jar",
+          "sourceSha256": "da2f7c43329b20d9627a6590f8048233c349d5efe78defe57b05eff120ded691",
+          "version": "1.0.12",
+          "websiteUrl": "https://github.com/tr7zw/TRender"
+        }
+      ],
+      "nativeSourceFile": "TRender-1.0.12-1.21.1-neoforge-SNAPSHOT.jar",
+      "nativeVersion": "1.0.12",
+      "websiteUrl": "https://github.com/tr7zw/TRender"
+    },
+    "xaerolib": {
+      "matchingDeclarations": [
+        {
+          "coordinate": {
+            "artifact": "xaerolib-neoforge-1.21.1",
+            "group": "xaero.lib"
+          },
+          "declaredAuthor": "xaero96",
+          "declaredWebsiteUrl": null,
+          "nestedPath": "META-INF/jarjar/xaerolib-neoforge-1.21.1-1.7.3.jar",
+          "nestedSha256": "010dc4c2ff154aa8ba04c779600658b77ac0003eee3a98ac9453f6e7acd28898",
+          "sourcePath": "mods/xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+          "sourceSha256": "6a42b6f01bd96b496e5fcc07d4541bad1a699d9ec8ad58ad40d5dcfe23a7d4c7",
+          "version": "1.7.3",
+          "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaerolib"
+        }
+      ],
+      "nativeSourceFile": "xaerolib-neoforge-1.21.1-1.7.3.jar",
+      "nativeVersion": "1.7.3",
+      "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/xaerolib"
+    }
+  },
+  "nativeEvidence": {
+    "authorModJarCount": 350,
+    "excludedIds": {
+      "e4steam": {
+        "nativeSourceFile": "e4steam-neoforge-mc1.20.2-26.3-v0.3.4-lanmc-native-ui.2.jar",
+        "version": "0.3.4"
+      },
+      "minecraft": {
+        "nativeSourceFile": "client-1.21.1-20240808.144430-srg.jar",
+        "version": "1.21.1"
+      },
+      "neoforge": {
+        "nativeSourceFile": "neoforge-21.1.251-universal.jar",
+        "version": "21.1.251"
+      }
+    },
+    "loadedAuthorModCount": 379,
+    "nativeModCount": 382,
+    "observedModListSha256": "ad09f68ccc1c7e9290baa439e8ace694b3dc3e119fa899a33d1bcb75b1c83cc6",
+    "steamComponentSha256": "2cfedc07ee3c84b9b980351ea094d5f898c858f37ff46dada24c621061761d2e"
+  },
+  "officialCurseForgeProjectRecords": {
+    "normalizedCacheSha256": "8627e48a31e6b1f80635410a6c9f8e3931743c0263786c350fe5b9aa7ca25eca",
+    "projectCount": 350,
+    "projectEndpointTemplate": "https://api.modpacks.ch/public/curseforge/{projectId}"
+  },
+  "packVersion": "3.07.8",
+  "schemaVersion": 1,
+  "upstreamLockSha256": "9e253087bd62a950952439cc341e1477f437c5f44050e5e7b191aa91434ec090"
+}

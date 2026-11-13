@@ -3,5 +3,31 @@
   "relativePath": "Beebeeblock - The Skyhive",
   "name": "Beebeeblock - The Skyhive",
   "summary": "Пчелиное хозяйство и производство на острове над пустотой.",
-  "description": "По сюжету вы помогаете пчелиной королеве создать корону. Задания знакомят с разведением пчёл и получением ресурсов. Авторские рецепты и многоблочные машины позволяют развить хозяйство в полноценное производство."
+  "description": "По сюжету вы помогаете пчелиной королеве создать корону. Задания знакомят с разведением пчёл и получением ресурсов. Авторские рецепты и многоблочные машины позволяют развить хозяйство в полноценное производство.",
+  "libraryIds": [
+    "additionalentityattributes",
+    "ae2addonlib",
+    "ae2wtlib_api",
+    "codecui",
+    "conditional_mixin",
+    "endercore",
+    "fabric_api_base",
+    "fabric_block_view_api_v2",
+    "fabric_particles_v1",
+    "fabric_renderer_api_v1",
+    "fabric_rendering_data_attachment_v1",
+    "grandpower",
+    "infiniverse",
+    "kuma_api",
+    "lambdynlights_api",
+    "mezz_config",
+    "nuggets",
+    "productivelib",
+    "sablecompanion",
+    "sauce",
+    "spectrelib",
+    "transition",
+    "trender",
+    "xaerolib"
+  ]
 }
