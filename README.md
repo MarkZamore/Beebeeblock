@@ -17,6 +17,15 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 
 ## Публикация
 
+В авторском `kubejsarsnouveau-1.3.2.jar` (CurseForge 833926/7181937)
+поле `pack_format` осталось шаблоном. Проверка LANMinecraft останавливает
+запуск на этом файле. Рецепт `jarMetadataPatches` исправляет корневой
+`pack.mcmeta` при подготовке выпуска. Значения 34 для ресурсов и 48 для
+данных сверены с `version.json` Minecraft 1.21.1. Код и ресурсы мода
+сохранены побайтно. В JAR вложена [лицензия MIT BobVarioa](https://github.com/BobVarioa/kjsarsnouveau/blob/18278a05d27def7200158a6d08516d5f22318e44/LICENSE).
+При обновлении авторского клиента рецепт применяется к тому же JAR.
+При смене file ID или исходного SHA256 подготовка требует проверить новый файл.
+
 Условия авторского источника — All Rights Reserved.
 
 Пользователь подтвердил наличие разрешения на перезалив. Публикация следует после проверки полного состава и нативной приёмки.

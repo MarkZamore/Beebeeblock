@@ -6,3 +6,4 @@
 /tools/network-logging-policy.json text eol=lf
 /tools/network_logging_policy.py text eol=lf
 *.json text eol=lf
+/licenses/KubeJS-Ars-Nouveau-MIT.txt -text
