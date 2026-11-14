@@ -42,5 +42,21 @@
       },
       "license": "licenses/KubeJS-Ars-Nouveau-MIT.txt"
     }
-  ]
+  ],
+  "questTranslation": {
+    "inputs": {
+      "config/ftbquests/quests/lang/en_us.snbt": {
+        "sizeBytes": 257849,
+        "sha256": "2b9ded2470305c2a7a9c4b94056aade46f5f2eefe4d80379ae913bc837ded837"
+      },
+      "config/ftbquests/quests/lang/zh_cn.snbt": {
+        "sizeBytes": 253852,
+        "sha256": "b58ef808524028a51980ec941eaad9acc3b1ab960d0c49395b7a9c94aaf6dec4"
+      }
+    },
+    "output": {
+      "sizeBytes": 392145,
+      "sha256": "3e91a48b51cddbd12e32853270f315ddf9a817ce789f6cd1e51504aecc7af67f"
+    }
+  }
 }

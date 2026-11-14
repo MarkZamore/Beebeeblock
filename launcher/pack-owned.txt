@@ -1,1 +1,2 @@
+config/ftbquests/quests/lang/ru_ru.snbt
 config/log4j2.xml

@@ -7,3 +7,4 @@
 /tools/network_logging_policy.py text eol=lf
 *.json text eol=lf
 /licenses/KubeJS-Ars-Nouveau-MIT.txt -text
+/config/ftbquests/quests/lang/ru_ru.snbt text eol=lf
