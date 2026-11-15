@@ -17,6 +17,13 @@ python -B tools/PackData/CurseForge/release_overlay.py stage --pack-source Local
 
 ## Публикация
 
+Раскладка для кнопки «Пресет управления» находится в
+`launcher/controls-preset.txt`. Данные, раскладка и офлайн-проверка описаны
+в [tools/keybinds/design.md](tools/keybinds/design.md). Перед публикацией
+обновлённого авторского клиента добавьте этот файл в архив `launcher/` и
+закрепите его SHA-256 в манифесте. Для выпуска только пресета используется
+`.github/workflows/publish.yml`.
+
 Квестбук Beebeeblock 3.07.8 переведён на русский язык. FTB Quests 2101.1.37
 подхватывает `config/ftbquests/quests/lang/ru_ru.snbt` при выборе
 русского языка в Minecraft. Рецепт `questTranslation` закрепляет английский
