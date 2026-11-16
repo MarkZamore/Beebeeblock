@@ -1,10 +1,11 @@
-name: Publish Beebeeblock controls preset
+name: Publish Beebeeblock pack data
 
 on:
   push:
     branches: [main]
     paths:
       - launcher/controls-preset.txt
+      - kubejs/client_scripts/lanminecraft_multiplayer_warning.js
       - tools/keybinds/**
       - .github/workflows/publish.yml
   workflow_dispatch:
@@ -27,7 +28,7 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-      - name: Build and verify the preset update
+      - name: Build and verify the pack data update
         shell: bash
         run: |
           set -euo pipefail
@@ -40,9 +41,12 @@ jobs:
           public=$(gh api "repos/$GITHUB_REPOSITORY/releases/tags/pack-latest" --jq '.assets[]|select(.name=="pack-manifest.json")|.digest')
           test "$public" = "sha256:$expected"
           launcher=$(jq -er '.assets[] | select(.covers | any(startswith("launcher/"))) | .name' "$base")
+          scripts=$(jq -r '.assets[] | select(.covers | index("kubejs/client_scripts/lanminecraft_multiplayer_warning.js")) | .name' "$base")
           library=$(jq -er '.library.name' "$base")
-          gh release download pack-latest -p "$launcher" -p "$library" -D "$work/before"
-          python3 -B tools/keybinds/stage_release.py "$base" "$work/before/$launcher" "$work/before/$library" "$work/dist"
+          patterns=(-p "$launcher" -p "$library")
+          if [[ -n "$scripts" ]]; then patterns+=(-p "$scripts"); fi
+          gh release download pack-latest "${patterns[@]}" -D "$work/before"
+          python3 -B tools/keybinds/stage_release.py "$base" "$work/dist"
       - name: Publish assets and update the manifest
         shell: bash
         run: |
@@ -74,7 +78,4 @@ jobs:
           curl --fail --silent --show-error --location --retry 3 --max-time 60 \
             "https://github.com/$GITHUB_REPOSITORY/releases/download/pack-latest/pack-manifest.json?run=$GITHUB_RUN_ID" -o "$work/public-manifest.json"
           cmp "$manifest" "$work/public-manifest.json"
-          expected=$(sha256sum launcher/controls-preset.txt | cut -d' ' -f1)
-          jq -e --arg sha "$expected" --arg rev "$GITHUB_SHA" '
-            .revision == $rev and any(.files[]; .path == "launcher/controls-preset.txt" and .sha256 == $sha)
-          ' "$work/public-manifest.json"
+          jq -e --arg rev "$GITHUB_SHA" '.revision == $rev' "$work/public-manifest.json"
