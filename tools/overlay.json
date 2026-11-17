@@ -11,8 +11,8 @@
     },
     {
       "path": "launcher/jvm-args.txt",
-      "sizeBytes": 44,
-      "sha256": "a1f3a734e672681e16e8db9a35ece57236720f99f95a85bac9eb2caac1e19d3c"
+      "sizeBytes": 111,
+      "sha256": "6d1dd3ea430f376463bda0836f9b2cdcb5ee6d032c17b1fdf9100b647d5323d2"
     }
   ],
   "jarMetadataPatches": [
@@ -58,5 +58,12 @@
       "sizeBytes": 392145,
       "sha256": "3e91a48b51cddbd12e32853270f315ddf9a817ce789f6cd1e51504aecc7af67f"
     }
-  }
+  },
+  "supportFiles": [
+    {
+      "path": "config/lanminecraft/experimental-world-confirmation.jar",
+      "sizeBytes": 385299,
+      "sha256": "6db006392ebcfa6ce3cb5d21da8c8772eacfa388052e6e97bd5dd925734dd8bc"
+    }
+  ]
 }

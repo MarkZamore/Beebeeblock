@@ -1,2 +1,3 @@
 config/ftbquests/quests/lang/ru_ru.snbt
+config/lanminecraft/experimental-world-confirmation.jar
 config/log4j2.xml
